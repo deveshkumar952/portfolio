@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <title>Devesh Kumar</title>
+  </head>
+  <body class="bg-[#06021a] font-[Poppins]">
+    <nav class="bg-[#21212e] py-3 md:flex md:items-center md:justify-between">
+      <div class="flex items-center justify-between mx-10 my-2">
+        <img src="img/hero-img.png" class="select-none h-[40px] w-[40px]" />
+        <span class="-mx-[1px] text-2xl cursor-pointer text-[#793fff] px-[10px]"
+          ><b>Devesh Kumar</b></span
+        >
+        <span class="text-3xl cursor-pointer text-[#793fff] md:hidden block"
+          ><ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon
+        ></span>
+      </div>
+      <ul
+        class="md:flex md:items-center md:z-auto md:static bg-[#21212e] absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+        <!--z-[-1]-->
+        <li class="mx-4 my-4 md:my-0">
+          <a href="#" class="text-white hover:text-[#793fff] duration-500"
+            >Home</a
+          >
+        </li>
+        <li class="mx-4 my-4 md:my-0">
+          <a href="#" class="text-white hover:text-[#793fff] duration-500"
+            >About</a
+          >
+        </li>
+        <li class="mx-4 my-4 md:my-0">
+          <a href="#" class="text-white hover:text-[#793fff] duration-500"
+            >Experience</a
+          >
+        </li>
+        <li class="mx-4 my-4 md:my-0">
+          <a href="#" class="text-white hover:text-[#793fff] duration-500"
+            >Projects</a
+          >
+        </li>
+        <li class="mx-4 my-4 md:my-0">
+          <button
+            class="bg-[#793fff] shadow-lg shadow-[#793fff]/30 text-white h-8 w-32 rounded-[5px]"
+          >
+            👋 Contact
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <div
+        class="px-[80px] py-12 bg-[#21212e] 2xl:py-2 xl:py-2 lg:py-2 md:py-2 sm:py-2"
+      >
+        <div
+          class="mx-[5px] -mt-[30px] h-[250px] w-[250px] sm:h-[220px] sm:w-[220px] sm:mt-[50px] sm:mx-[320px] md:h-[250px] md:w-[250px] md:mt-[50px] md:mx-[410px] lg:h-[250px] lg:w-[250px] lg:mt-[50px] lg:mx-[700px] xl:h-[250px] xl:w-[250px] xl:mt-[50px] xl:mx-[800px] 2xl:h-[250px] 2xl:w-[250px] 2xl:mt-[50px] 2xl:mx-[900px]"
+        >
+          <img src="img/hero-img.png" class="select-none" />
+        </div>
+        <div
+          class="mt-5 sm:-mt-[200px] sm:-mx-[30px] md:mx-[10px] lg:mx-[50px] xl:mx-[220px] 2xl:mx-[250px]"
+        >
+          <span class="text-white text-3xl"
+            >👋 Hi, I'm
+            <span class="text-[#793fff] text-3xl font-bold"
+              >Devesh Kumar</span
+            ></span
+          >
+        </div>
+        <div
+          class="mt-4 text-justify sm:-mx-[30px] md:mx-[10px] lg:mx-[50px] xl:mx-[220px] 2xl:mx-[250px]"
+        >
+          <span class="text-white text-1xl z-50"
+            >Well I am a Web Developer working to<br />make internet a place
+            with modern sites.<br /><span class="font-semibold"
+              >Know more about me below. ⬇️</span
+            ></span
+          ><br />
+        </div>
+        <div
+          class="mt-4 sm:pb-[50px] sm:-mx-[30px] md:mx-[10px] lg:mx-[50px] xl:mx-[220px] 2xl:mx-[250px]"
+        >
+          <button
+            class="bg-[#793fff] text-white h-10 w-40 rounded-[5px] shadow-lg shadow-[#793fff]/30"
+          >
+            Download CV
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <p class="my-[50px] text-center text-3xl text-white font-extrabold">
+        Here's More <span class="text-[#793fff]">About Me</span>
+      </p>
+      <img
+        src="img/about-img.png"
+        class="select-none invisible h-[0px] w-[0px] md:visible md:h-[350px] md:w-[350px] md:mx-[20px] sm:visible sm:h-[200px] sm:w-[200px] sm:mx-[40px] lg:visible lg:h-[400px] lg:w-[400px] lg:mx-[100px] xl:visible xl:h-[400px] xl:w-[400px] xl:mx-[150px] 2xl:visible 2xl:h-[500px] 2xl:w-[500px] 2xl:mx-[200px]"
+      />
+      <div
+        class="bg-[#21212e] shadow-lg flex mx-[28px] mb-8 rounded-[10px] h-[520px] w-[350px] sm:mx-[260px] md:mx-[400px] md:w-[350px] md:-mt-[350px] sm:-mt-[210px] lg:mx-[500px] lg:w-[500px] lg:-mt-[400px] xl:mx-[600px] xl:w-[580px] xl:-mt-[400px] 2xl:mx-[700px] 2xl:w-[600px] 2xl:-mt-[500px]"
+      >
+        <div
+          class="bg-red-600 mx-[20px] mt-6 mb-8 rounded-full h-[15px] w-[15px]"
+        ></div>
+        <div
+          class="bg-green-600 -mx-[10px] mt-6 mb-8 rounded-full h-[15px] w-[15px]"
+        ></div>
+        <div
+          class="bg-blue-600 mx-[20px] mt-6 mb-8 rounded-full h-[15px] w-[15px]"
+        ></div>
+        <span class="my-[80px] -mx-[70px] text-pink-500 text-1xl"
+          >const aboutMe = () => {<br />
+          <span class="mx-[30px] text-blue-500 text-1xl"
+            >const details = { <br />
+            <span class="mx-[50px] text-white text-1xl"
+              ><span class="text-yellow-500">name:</span> "Devesh";</span
+            >
+            <br />
+            <span class="mx-[50px] text-white text-1xl"
+              ><span class="text-yellow-500">age:</span> 18;</span
+            >
+            <br />
+            <span class="mx-[50px] text-white text-1xl"
+              ><span class="text-yellow-500">profession:</span> "Web
+              Developer"</span
+            >
+            <br />
+            <span class="mx-[50px] text-white text-1xl"
+              ><span class="text-pink-500">TechnologiesKnown</span> = {</span
+            >
+            <br />
+            <span class="mx-[70px] text-white text-1xl"
+              ><span class="text-yellow-500">HTML:</span> "✅";</span
+            >
+            <br />
+            <span class="mx-[70px] text-white text-1xl"
+              ><span class="text-yellow-500">CSS:</span> "✅";</span
+            >
+            <br />
+            <span class="mx-[70px] text-white text-1xl"
+              ><span class="text-yellow-500">JavaScript:</span> "✅";</span
+            >
+            <br />
+            <span class="mx-[70px] text-white text-1xl"
+              ><span class="text-yellow-500">Tailwind CSS:</span> "✅";</span
+            >
+            <br />
+            <span class="mx-[70px] text-white text-1xl"
+              ><span class="text-yellow-500">Node JS:</span> "✅";</span
+            >
+            <br />
+            <span class="mx-[70px] text-white text-1xl"
+              ><span class="text-yellow-500">Express JS:</span> "✅";</span
+            >
+            <br />
+            <span class="mx-[70px] text-white text-1xl"
+              ><span class="text-yellow-500">MongoDB:</span> "✅";</span
+            >
+            <br />
+            <span class="mx-[70px] text-white text-1xl"
+              ><span class="text-yellow-500">Java:</span> "✅";</span
+            >
+            <br />
+            <span class="mx-[70px] text-white text-1xl"
+              ><span class="text-yellow-500">SQL:</span> "✅";</span
+            >
+            <br />
+            <span class="mx-[70px] text-pink-500 text-1xl">}</span> <br />
+            <span class="mx-[30px] text-blue-500 text-1xl">}</span> </span
+          ><br />
+          }</span
+        >
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>
