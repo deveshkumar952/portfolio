@@ -10,15 +10,11 @@ Tailfolio is a modern and visually appealing personal portfolio website design p
 
 ## Table of Content
   * [Introduction](#introduction)
-  * [Screenshot](#screenshot)
   * [Features](#features)
   * [Technologies Used](#technologies-used)
   * [How to Use](#how-to-use)
-  * [Deployment](#deployment)
   * [Conclusion](#conclusion)
 
-## Screenshot
-![tailfolio](https://user-images.githubusercontent.com/106135144/216605853-802eee05-de89-44f9-8b30-7d3eb0a6004b.png)
 
 ## Features
 1. Modern UI Blog Design
@@ -29,13 +25,11 @@ Tailfolio is a modern and visually appealing personal portfolio website design p
 - HTML
 - CSS
 - Javascript
-- Netlify
+- Tailwind
 
 ## How to Use
 To use the Tailfolio, simply clone the repository and run the index.html file in your preferred browser.
 
-## Deployment
-This project has been deployed on Netlify and is available for use by anyone.
 
 ## Conclusion
 Tailfolio is a great example of a user-centered design project that utilizes modern web technologies to create a visually appealing blog website. If you're looking to create your own portfolio website, be sure to check out this project!
